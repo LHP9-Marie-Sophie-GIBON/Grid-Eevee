@@ -1,0 +1,137 @@
+body
+{
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.test {
+    display: grid;
+    grid-template-columns: repeat (11 1fr);
+    grid-template-rows: repeat (15 1fr);
+    gap: 5px;
+
+    width: 40vw;
+    height: 90vh;
+
+}
+
+.logo {
+    grid-column: 4/9;
+    grid-row: 1/3;
+
+    background-image: url("img/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat ;
+    background-position: center;
+}
+
+.evoli {
+    grid-column: 5/8 ;
+    grid-row: 8/10;
+    border: 2px solid rgb(178, 113, 113);
+
+    background-image: url("img/evoli.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: center;
+
+}
+
+.aquali {
+    grid-column: 8/12 ;
+    grid-row: 6/10;
+    border: 2px solid rgb(0, 183, 255);
+
+    background-image: url("img/aquali.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: center;
+
+}
+
+.pyroli {
+    grid-column: 8/12 ;
+    grid-row: 3/6;
+    border: 2px solid red;
+
+    background-image: url("img/pyroli.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: center;
+
+}
+
+.voltali {
+    grid-column: 5/8 ;
+    grid-row: 3/8;
+    border: 2px solid yellow;
+
+    background-image: url("img/voltali.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: center;
+
+}
+
+
+.phyllali {
+    grid-column: 9/12 ;
+    grid-row: 10/15;
+    border: 2px solid greenyellow;
+
+    background-image: url("img/philali.png");
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: center;
+
+}
+
+.noctali {
+    grid-column: 1/5 ;
+    grid-row: 7/11;
+    border: 2px solid grey;
+
+    background-image: url("img/noctali.png");
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: center;
+
+}
+
+.mentali {
+    grid-column: 1/5 ;
+    grid-row: 3/7;
+    border: 2px solid purple;
+
+    background-image: url("img/mentali.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.nymphali {
+    grid-column: 5/9 ;
+    grid-row: 10/15;
+    border: 2px solid rgb(247, 130, 158);
+
+    background-image: url("img/nymphali.jpeg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.givrali {
+    grid-column: 1/5 ;
+    grid-row: 11/15;
+    border: 2px solid blue;
+   
+    background-image: url("img/givrali.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+
